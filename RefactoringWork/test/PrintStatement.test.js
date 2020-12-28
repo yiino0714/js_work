@@ -12,7 +12,7 @@ You earned 47 credits
 `;
 
 invoices.forEach((invoice) => {
-    test('statement', () => {
-        expect(stmt.statement(invoice, plays)).toBe(expected);
-    });
+  test('statement', () => {
+    expect(stmt.statement(invoice, plays)).toBe(expected);
+  });
 });
